@@ -78,5 +78,15 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-    window.location.href = "yes_page.html";
+    document.querySelector(".container").innerHTML = `
+        <h1>YAYYYY 💕</h1>
+        <h2>Our Valentine’s Plan 🌹</h2>
+        <p>
+            Pick you up with flowers <br><br>
+            Cute date <br><br>
+            Movie or something cute + snacks <br><br>
+            Night walk & deep talks <br><br>
+            Wear something cute 
+        </p>
+    `;
 }
